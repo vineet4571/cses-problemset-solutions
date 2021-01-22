@@ -30,7 +30,7 @@ int main()
 		lengths.insert(right - point);
 
 		// insert the new point
-		points.insert(it, point);
+		points.insert(point);
 
 		// output the largest length
 		cout << *lengths.rbegin() << " ";
